@@ -118,18 +118,18 @@ input{
 <body style="color:#555;font-family:Consolas, MonoSpace;margin:0px;">
   <h2 style="text-align:center">Панель управления API Termux</h2>
   <div class="commands">
-     Команды:
+     :
     <a onclick="cmd(0)" href=#>Check</a><a onclick="cmd(1)" href=#>Battery</a><a onclick="cmd(2)" href=#>Camera Info</a><a onclick="cmd(3)" href=#>Camera Click</a><a onclick="cmd(4)" href=#>Clipboard Get</a><a onclick="cmd(5)" href=#>Clipboard Set</a><a onclick="cmd(6)" href=#>Contacts</a><a onclick="cmd(7)" href=#>Dialog</a><a onclick="cmd(8)" href=#>Download</a><a onclick="cmd(9)" href=#>IR Info</a><a onclick="cmd(10)" href=#>IR Send</a><a onclick="cmd(11)" href=#>Location</a><a onclick="cmd(12)" href=#>Notification</a><a onclick="cmd(13)" href=#>Share</a><a onclick="cmd(14)" href=#>SMS Read</a><a onclick="cmd(15)" href=#>SMS Send</a><a onclick="cmd(16)" href=#>Cell Info</a><a onclick="cmd(17)" href=#>Device Info</a><a onclick="cmd(18)" href=#>Toast</a><a onclick="cmd(19)" href=#>TTS Engines</a><a onclick="cmd(20)" href=#>TTS Speak</a><a onclick="cmd(21)" href=#>Vibrate</a>
   </div>
   <div class="main">
     <div id="command" style="color:#666;font-weight:bold;font-size:20px"></div>
-    <pre style="white-space:pre-wrap;"><code id= "documentation"></code></pre>
+    <pre style="white-space:pre-wrap;"><code id= "documentation"><data-darkreader-inline-color/code></pre>
     <div>
       <div id="param" style="margin-top:10px">
-        <span style="">Введите параметры : </span>
+        <span style="">Enter parameters : </span>
         <input id="paramInput">
       </div>
-      <div onclick="execute()" class="execute btn">Выполнить</div>
+      <div onclick="execute()" class="execute btn">Execute</div>
     </div>
     <div style="border-top:solid 1px #ccc;width:100%;height:1px;margin:auto;margin-top:15px;margin-bottom:5px;"></div>
     <pre><code id= "response"></code></pre>
@@ -137,7 +137,7 @@ input{
 
   <script>
   var api = {
-    0:{command:"Проверка",doc:"Эта команда проверит, доступен ли Termux:API на устройстве.",sampleParam:""},
+    0:{command:"check",doc:"Эта команда проверит, доступен ли Termux:API на устройстве.",sampleParam:""},
     1:{command:"termux-battery-status",doc:"Usage: termux-battery-status\nGet the status of the device battery.",sampleParam:""},
     2:{command:"termux-camera-info",doc:"Usage: termux-camera-info\nGet information about device camera(s).",sampleParam:""},
     3:{command:"termux-camera-photo",doc:"Usage: termux-camera-photo [-c camera-id] output-file\nTake a photo and save it to a file in JPEG format.\n\n  -c camera-id  ID of the camera to use (see termux-camera-info), default: 0",sampleParam:"-c 0 photo.jpg"},

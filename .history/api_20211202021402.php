@@ -118,7 +118,7 @@ input{
 <body style="color:#555;font-family:Consolas, MonoSpace;margin:0px;">
   <h2 style="text-align:center">Панель управления API Termux</h2>
   <div class="commands">
-     Команды:
+     "Команды":
     <a onclick="cmd(0)" href=#>Check</a><a onclick="cmd(1)" href=#>Battery</a><a onclick="cmd(2)" href=#>Camera Info</a><a onclick="cmd(3)" href=#>Camera Click</a><a onclick="cmd(4)" href=#>Clipboard Get</a><a onclick="cmd(5)" href=#>Clipboard Set</a><a onclick="cmd(6)" href=#>Contacts</a><a onclick="cmd(7)" href=#>Dialog</a><a onclick="cmd(8)" href=#>Download</a><a onclick="cmd(9)" href=#>IR Info</a><a onclick="cmd(10)" href=#>IR Send</a><a onclick="cmd(11)" href=#>Location</a><a onclick="cmd(12)" href=#>Notification</a><a onclick="cmd(13)" href=#>Share</a><a onclick="cmd(14)" href=#>SMS Read</a><a onclick="cmd(15)" href=#>SMS Send</a><a onclick="cmd(16)" href=#>Cell Info</a><a onclick="cmd(17)" href=#>Device Info</a><a onclick="cmd(18)" href=#>Toast</a><a onclick="cmd(19)" href=#>TTS Engines</a><a onclick="cmd(20)" href=#>TTS Speak</a><a onclick="cmd(21)" href=#>Vibrate</a>
   </div>
   <div class="main">
@@ -126,7 +126,7 @@ input{
     <pre style="white-space:pre-wrap;"><code id= "documentation"></code></pre>
     <div>
       <div id="param" style="margin-top:10px">
-        <span style="">Введите параметры : </span>
+        <span style="">Enter parameters : </span>
         <input id="paramInput">
       </div>
       <div onclick="execute()" class="execute btn">Выполнить</div>

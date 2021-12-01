@@ -126,7 +126,7 @@ input{
     <pre style="white-space:pre-wrap;"><code id= "documentation"></code></pre>
     <div>
       <div id="param" style="margin-top:10px">
-        <span style="">Введите параметры : </span>
+        <span style="">Enter parameters : </span>
         <input id="paramInput">
       </div>
       <div onclick="execute()" class="execute btn">Выполнить</div>
